@@ -30,6 +30,8 @@ server.listen(3000, () => {
         process.exit(1);
       }
       server.close();
+      console.log('All tests passed!');
+      process.exit(0);
     });
   });
 });
