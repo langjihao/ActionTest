@@ -1,0 +1,13 @@
+{
+  "name": "simple-api",
+  "version": "1.0.0",
+  "description": "A simple API with GitHub Actions",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
